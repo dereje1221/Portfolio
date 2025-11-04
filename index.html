@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Global Styles */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .project {
+            flex: 1 1 calc(33% - 20px);
+            background-color: #eee;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .project h3 {
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+        /* Responsive */
+        
+        @media(max-width: 768px) {
+            .projects {
+                flex-direction: column;
+            }
+            .project {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Dereje Seifa Tadese</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Dereje, a passionate Information Technology graduate from Dire Dawa University. I am skilled in languages such as Amharic, Oromo, and English. I enjoy creating web projects and learning new technologies.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A small web application built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>A console-based Java program for managing student data.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>A simple Node.js web app with MySQL database integration.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: dereje@example.com</p>
+        <p>Phone: +251 912 345 678</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Dereje Seifa Tadese. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
